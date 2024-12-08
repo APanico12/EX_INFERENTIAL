@@ -1,1 +1,1 @@
-# EX_INFERENTIAL
+Statistical inference exercises
