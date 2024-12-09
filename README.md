@@ -13,7 +13,7 @@ where tau is the expected value of the uniform distribution Uniform(1, 3).
 
 Estimation of Gamma Distribution Parameters
 
-This program calculates the parameters  \alpha (shape) and \beta (inverse scale) of a **gamma distribution** using the **Maximum Likelihood Estimation (MLE)** technique. 
+This program calculates the parameters  \text(alpha) (shape) and \beta (inverse scale) of a **gamma distribution** using the **Maximum Likelihood Estimation (MLE)** technique. 
 In particular, the parameter \( \alpha \) is determined numerically using the **Newton's method**, and \( \beta \) is subsequently calculated using a direct relationship.
 
 ## Newton's Method
