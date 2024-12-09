@@ -9,7 +9,7 @@ MSE = E[(tau_hat - tau)^2]
 where tau is the expected value of the uniform distribution Uniform(1, 3).
 
 
-## Excercise 7.3 Casella Berger
+## Excercise 7.2 Casella Berger
 
 ### Estimation of Gamma Distribution Parameters
 
