@@ -11,20 +11,18 @@ where tau is the expected value of the uniform distribution Uniform(1, 3).
 
 # Excercise 7.3 Casella Berger
 
-Estimation of Gamma Distribution Parameters
+## Estimation of Gamma Distribution Parameters
 
-This program calculates the parameters  \text(alpha) (shape) and \beta (inverse scale) of a **gamma distribution** using the **Maximum Likelihood Estimation (MLE)** technique. 
-In particular, the parameter \( \alpha \) is determined numerically using the **Newton's method**, and \( \beta \) is subsequently calculated using a direct relationship.
+This program calculates the parameters  alpha  and beta  of a **gamma distribution** using the **Maximum Likelihood Estimation (MLE)** technique. 
+In particular, the parameter alpha  is determined numerically using the **Newton's method**, and beta  is subsequently calculated using a direct relationship.
 
 ## Newton's Method
 
-Newton's method is a numerical algorithm used to find the zeros of a function. In this program, it is applied to find the zero of the derivative of the log-likelihood function with respect to the parameter $ alpha $. 
-Starting from an initial estimate, $alpha_0$, the method iteratively updates the solution using the formula:
+Newton's method is a numerical algorithm used to find the zeros of a function. In this program, it is applied to find the zero of the derivative of the log-likelihood function with respect to the parameter alpha. 
+Starting from an initial estimate, alpha_0, the method iteratively updates the solution using the formula:
 
-$ \alpha_{n+1} = \alpha_n - \frac{f(\alpha_n)}{f'(\alpha_n)} $
+alpha_n+1 = alpha_n - f(\alpha_n) / f'(\alpha_n)
 
 where:
-- \( f(\alpha) \) is the derivative of the log-likelihood function with respect to \( \alpha \).
-- \( f'(\alpha) \) is the second derivative of the log-likelihood function.
-
-This technique is chosen for its efficiency and rapid convergence, especially in well-conditioned problems like the one addressed in this script.
+- f(alpha) is the derivative of the log-likelihood function with respect to alpha.
+- f'(alpha) is the second derivative of the log-likelihood function.
