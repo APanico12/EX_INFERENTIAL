@@ -18,8 +18,8 @@ In particular, the parameter \( \alpha \) is determined numerically using the **
 
 ## Newton's Method
 
-Newton's method is a numerical algorithm used to find the zeros of a function. In this program, it is applied to find the zero of the derivative of the log-likelihood function with respect to the parameter $ \alpha $. 
-Starting from an initial estimate, $\alpha_0$, the method iteratively updates the solution using the formula:
+Newton's method is a numerical algorithm used to find the zeros of a function. In this program, it is applied to find the zero of the derivative of the log-likelihood function with respect to the parameter $ alpha $. 
+Starting from an initial estimate, $alpha_0$, the method iteratively updates the solution using the formula:
 
 $ \alpha_{n+1} = \alpha_n - \frac{f(\alpha_n)}{f'(\alpha_n)} $
 
